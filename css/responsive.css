@@ -24,6 +24,7 @@
                  }
                  .banner-right {
                      width: 100%;
+                     padding: 15px 0px;
                  }
                  .banner-left p {
                      text-align: center;
@@ -35,5 +36,27 @@
                  .product__section--products {
                      grid-template-columns: 1fr;
                  }
-                 .footer-
+                 .newslatter {
+                     grid-template-columns: 1fr;
+                 }
+                 .newslatter-img {
+                     display: none;
+                 }
+             }
+             /* tableet screen  */
+             
+             @media only screen and (min-width:689px) and (max-width: 992px) {
+                 .container {
+                     padding: 0 3%;
+                 }
+                 .product__section--products {
+                     grid-template-columns: 1fr 1fr;
+                 }
+                 .banner-left h1 {
+                     font-size: 34px;
+                     line-height: 50px;
+                 }
+                 .newslatter-img {
+                     background-position: right;
+                 }
              }
