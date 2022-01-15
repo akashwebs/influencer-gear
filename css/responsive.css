@@ -2,6 +2,13 @@
                  .container {
                      padding: 0 1%;
                  }
+                 .logo {
+                     width: 100%;
+                 }
+                 .logo>a {
+                     display: block;
+                     text-align: center;
+                 }
                  .menu__bar>ul {
                      display: none;
                  }
@@ -28,6 +35,7 @@
                  }
                  .banner-left p {
                      text-align: center;
+                     padding: 0 35px;
                  }
                  .partner-section {
                      grid-template-columns: repeat( 4, 1fr);
@@ -35,6 +43,9 @@
                  }
                  .product__section--products {
                      grid-template-columns: 1fr;
+                 }
+                 .product-img {
+                     height: 256px;
                  }
                  .newslatter {
                      grid-template-columns: 1fr;
